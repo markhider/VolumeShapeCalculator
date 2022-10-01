@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Aufgaben.jnlp">
+  <information>
+    <title>Aufgaben</title>
+    <vendor>Dell</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Aufgaben.jar" size="1667297" download="eager" />
+    <jar href="lib\AbsoluteLayout.jar" size="2903" download="eager" />
+  </resources>
+  <application-desc main-class="CalculatorForm"  name="Aufgaben" >
+  </application-desc>
+  <update check="background"/>
+</jnlp>
